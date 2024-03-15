@@ -12,11 +12,11 @@ class Key {
 
 class Person {
 	constructor(private key: Key) {
-		this.key = key;
+		this.key;
 	}
 
 	getKey() {
-		return key;
+		return this.key;
 	}
 }
 
